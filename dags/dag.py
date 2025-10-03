@@ -55,4 +55,4 @@ my_cosmos_dag = DbtDag(
     dag_id=f"dag_dbt_dw_{dbt_env}",
     default_args={"retries": 2},
 )
-#Atualizando Dag 02-10-2025
+#Atualizando Dag 02-10-2025 22:42
