@@ -1,8 +1,9 @@
 from airflow.sdk import Asset, dag, task
+import os
 
 asset_tabela = Asset(
-    name='postgres://caboose.proxy.rlwy.net:43255/railway/public/mart_metricas_clientes',
-    uri='postgres://caboose.proxy.rlwy.net:43255/railway/public/mart_metricas_clientes',
+    name=os.getenv("ASSET_NAME"), 
+    uri=os.getenv("ASSET_URI"), 
     group='asset'
 
 )
