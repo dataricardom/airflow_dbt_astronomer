@@ -1,0 +1,3 @@
+[submodule "dbt/airflow_dbt_data_warehouse"]
+	path = dbt/airflow_dbt_data_warehouse
+	url = https://github.com/dataricardom/airflow_dbt_data_warehouse
